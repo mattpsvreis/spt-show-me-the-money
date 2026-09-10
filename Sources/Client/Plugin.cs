@@ -11,7 +11,7 @@ using SwiftXP.SPT.ShowMeTheMoney.Client.Contexts.Holders;
 
 namespace SwiftXP.SPT.ShowMeTheMoney.Client;
 
-[BepInPlugin("com.swiftxp.spt.showmethemoney", MyPluginInfo.PLUGIN_NAME, MyPluginInfo.PLUGIN_VERSION)]
+[BepInPlugin("com.dark.spt.showmethemoney", MyPluginInfo.PLUGIN_NAME, MyPluginInfo.PLUGIN_VERSION)]
 [BepInDependency("com.SPT.custom", "4.1.0")]
 [BepInDependency("com.fika.headless", BepInDependency.DependencyFlags.SoftDependency)]
 [BepInProcess("EscapeFromTarkov.exe")]

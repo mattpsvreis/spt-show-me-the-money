@@ -141,7 +141,7 @@ Server:
 ```
 
 ### FAQ  
-*(Last updated Sep 10, 2026 — SMTM v3.0.1)*
+*(Last updated Sep 10, 2026 — SMTM v3.0.2)*
 
 - **How do I install SMTM?**  
   - Extract the folders into your SPT directory. If that sounds too simple, consult the installation section(s).

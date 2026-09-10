@@ -6,7 +6,7 @@ namespace SwiftXP.SPT.ShowMeTheMoney.Server;
 
 public record ModMetadata : IModMetadata
 {
-    public string ModGuid { get; init; } = "com.swiftxp.spt.showmethemoney";
+    public string ModGuid { get; init; } = "com.dark.spt.showmethemoney";
     public string Name { get; init; } = "Show Me The Money";
     public string Author { get; init; } = "SwiftXP";
     public List<string>? Contributors { get; init; } = [];
