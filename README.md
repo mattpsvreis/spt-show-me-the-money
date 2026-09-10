@@ -1,5 +1,5 @@
 ___
-> This build targets **SPT 4.1.2** (compatible with the 4.1.x line). It is not compatible with SPT 4.0.x.
+> This build targets **SPT 4.1.5** (compatible with the 4.1.x line). It is not compatible with SPT 4.0.x.
 ___
 
 ___
@@ -84,8 +84,8 @@ Just to be clear: Triggering this does **not** cause LiveFleaPrices itself to co
 1. Extract the contents of the `.zip` or `.7z` straight into your SPT directory.  
 2. When you're done, you should see:
 ```
-- C:\yourSPTfolder\BepInEx\plugins\com.swiftxp.spt.showmethemoney\SwiftXP.SPT.ShowMeTheMoney.Client.dll
-- C:\yourSPTfolder\SPT_Runtime\user\mods\com.swiftxp.spt.showmethemoney\SwiftXP.SPT.ShowMeTheMoney.Server.dll
+- C:\yourSPTfolder\BepInEx\plugins\SwiftXP.ShowMeTheMoney.dll
+- C:\yourSPTfolder\SPT_Runtime\user\mods\swiftxp-showmethemoney\SwiftXP.SPT.ShowMeTheMoney.Server.dll
 ```
 
 ##### If your client and server are separated like two star-crossed lovers:
@@ -95,12 +95,12 @@ Extract the **user** folder into the server.
 
 Client:
 ```
-- C:\yourSPTclient\BepInEx\plugins\com.swiftxp.spt.showmethemoney\SwiftXP.SPT.ShowMeTheMoney.Client.dll
+- C:\yourSPTclient\BepInEx\plugins\SwiftXP.ShowMeTheMoney.dll
 ```
 
 Server:
 ```
-- C:\yourSPTserver\SPT\user\mods\com.swiftxp.spt.showmethemoney\SwiftXP.SPT.ShowMeTheMoney.Server.dll
+- C:\yourSPTserver\SPT\user\mods\swiftxp-showmethemoney\SwiftXP.SPT.ShowMeTheMoney.Server.dll
 ```
 
 ### SPT 3.11.x Installation  
@@ -141,7 +141,7 @@ Server:
 ```
 
 ### FAQ  
-*(Last updated Feb 02, 2026 — SMTM v2.7.0)*
+*(Last updated Sep 10, 2026 — SMTM v3.0.1)*
 
 - **How do I install SMTM?**  
   - Extract the folders into your SPT directory. If that sounds too simple, consult the installation section(s).
