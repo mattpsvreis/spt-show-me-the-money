@@ -402,7 +402,8 @@ public class SimpleTooltipShowPatch : ModulePatch
     {
         return SptSession.Session.Profile.Examined(item)
             && (!item.IsContainer || (item.IsContainer && item.IsEmpty()))
-            && item.Owner.OwnerType != EOwnerType.Trader;
+            && item.Owner is { } owner
+            && owner.OwnerType != EOwnerType.Trader;
     }
 
     private static string? GetTextOfInstance()
